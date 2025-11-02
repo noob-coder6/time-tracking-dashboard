@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+
+  <main class="dashboard">
+    <section class="user-card">
+      <div class="user-info">
+        <img src="./images/image-jeremy.png" alt="Jeremy Robson" class="user-avatar">
+        <div>
+          <p class="report-for">Report for</p>
+          <h1 class="user-name">Jeremy Robson</h1>
+        </div>
+      </div>
+      <ul class="timeframe-switcher">
+        <li><button class="timeframe-btn" data-timeframe="daily">Daily</button></li>
+        <li><button class="timeframe-btn active" data-timeframe="weekly">Weekly</button></li>
+        <li><button class="timeframe-btn" data-timeframe="monthly">Monthly</button></li>
+      </ul>
+    </section>
+
+    <!-- Activity cards will be inserted here by JavaScript -->
+
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/noob-coder6" target="_blank">noob-coder6</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
